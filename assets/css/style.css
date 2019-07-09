@@ -1,0 +1,23 @@
+.divClass{
+    padding-left: 50px;
+}
+
+.search_button{
+    margin-top: 25px;
+    background-color: #16a2b8;
+    color: #ffffff;
+}
+
+.btnclass{
+    margin: 5px;
+    background-color: #16a2b8;
+    color: #ffffff;
+}
+
+.gphyclass{
+    float: left;
+}
+    
+.imgClass{
+    margin: 5px;
+}

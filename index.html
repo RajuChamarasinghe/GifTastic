@@ -1,12 +1,65 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>GiphyTastic</title>
- 
-  </body>
+	<link rel="stylesheet"
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" 
+		integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous"
+		/>
+		<script src="assets/javascript/gifs.js"></script>  	
+	<link
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+		crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-12">
+				<!-- buttons shows here-->
+				<div id="myId" class="divClass"></div>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="w-100 col-lg-8 col-md-8 col-sm-12">
+				<!-- images shows here-->
+				<div id="giphyImages">
+
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="info">
+					<p> Search for Gifs! </p>
+					<input class="w-100" type="text" id="txtsearchtext">
+					<button type="submit" class="search_button" onclick="AddToArray()"> Submit </button>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
 
 </html>
-  
